@@ -1,0 +1,29 @@
+.header {
+    background-color: aquamarine;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.div-1{
+    background-color: blue;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.div-2{
+    background-color: salmon;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.div-3{
+    background-color: saddlebrown;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    background-color: forestgreen;
+    height: 150px;
+    margin-bottom: 15px;
+}

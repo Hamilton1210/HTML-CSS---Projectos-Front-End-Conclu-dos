@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/* Alterar o tamanho da barra de rolagem - início */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Alterar o tamanho da barra de rolagem - fim */
+
+/* Alterar cor e borda da barra de rolagem - início */
+::-webkit-scrollbar-thumb {
+    border: 1px solid #f1f1f1;
+    background-color: #343a40;
+}
+/* Alterar cor e borda da barra de rolagem - fim */
+
+/* Alterar cor de fundo da barra de rolagem - início */
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+/* Alterar cor de fundo da barra de rolagem - fim */
+
+/* Alterar quando mouse é passado no elemento - início */
+::-webkit-scrollbar-thumb:hover{
+    background: #555555;
+}
+/* Alterar quando mouse é passado no elemento - fim */
+
+/* Header - Início */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    transition: all 0.5;
+}
+
+header nav .logo {
+    width: 50px;
+    height: 50px;
+}
+
+header nav span{
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+header nav ul{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+header a:hover{
+    color: #ffffff;
+}
+
+/* Header - Fim */
+
+/* Section Home Início */
+
+main .home-content{
+    background-image: url("../img/bg-header.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+section.home-content h1, p, a{
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+section.home-content h1{
+    font-size: 4em;
+}
+
+section.home-content p{
+    font-size: 1.5em;
+}
+
+section.home-content a{
+    font-size: 1.2em;
+    background-color: #343a40;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+section.home-content a:hover{
+    color: #ffffff;
+}
+
+section.services {
+    height: 60vh;
+    display: flex;
+    background-color: #8c654c;
+    padding-top: 20px;
+}
+
+article.icons{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+article.icons i{
+    background-color: #ffffff;
+    color: #8c654c;
+    border-radius: 50%;
+    font-size: 4em;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+section.services h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 1px;
+}
+
+section.services p{
+    font-size: 2em;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/* article.icons .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/* Section Home Fim */

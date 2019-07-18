@@ -1,0 +1,58 @@
+section h1{
+    color: black;
+    font-size: 38px;
+}
+
+section p {
+    color: black;
+    font-size: 22px;
+}
+
+input[type="text"] {
+    color: red;
+    border: 2px solid red;
+}
+
+section h1, p {
+    text-align: center;
+}
+
+input[type="email"]:focus{
+    color: chocolate;
+}
+
+section .form-contato {
+    margin: 0 auto;
+    width: 800px;
+    display: block;
+}
+
+section label {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+section .input-contato {
+    height: 20px;
+    width: 300px;
+}
+
+section .form-inline div{
+    display: inline-block;
+    margin: 10px;
+}
+
+section .form-inline .textarea-contato {
+    resize: none;
+    width: 625px;
+}
+
+.form-inline .botao-contato {
+    background-color: #FFB90F;
+    width: 100px;
+    font-size: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}

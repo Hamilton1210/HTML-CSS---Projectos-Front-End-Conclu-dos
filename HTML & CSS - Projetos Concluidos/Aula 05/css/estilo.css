@@ -1,0 +1,155 @@
+body {
+    background-image: url(../imagens/bg.jpg);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+header {
+    height: 100px;
+    position: relative;
+}
+
+#menu {
+    background-color: #ffb90f;
+    width: 1349px;
+    margin-top: 70px;
+}
+
+#logo {
+    top: -65px;
+    position: absolute;
+    height: 200px;
+}
+
+#menu ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 200px;
+    height: 60px;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding: 15px 0 0 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.form {
+    margin-left: 400px;
+    display: inline-block;
+}
+
+#container {
+    height: 650px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+section .product {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 0 0 15px 15px;
+    opacity: 1;
+    transition: opacity 0.7s ease-in-out; 
+}
+
+section .product:hover {
+    opacity: 0.5;
+    
+}
+
+section .product-1 {
+    background-image: url(../imagens/product-1.jpg);
+    border-radius: 0 20px 0 20px;
+}
+
+section .product-2 {
+    background-image: url(../imagens/product-2.jpg);
+    border-radius: 0 20px 0 20px;
+}
+
+section .product-3 {
+    background-image: url(../imagens/product-3.jpg);
+    border-radius: 0 20px 0 20px;
+    
+}
+
+section .product-4 {
+    background-image: url(../imagens/product-4.jpg);
+    border-radius: 0 20px 0 20px;
+}
+
+section .product-5 {
+    background-image: url(../imagens/product-1.jpg);
+    border-radius: 0 20px 0 20px;
+}
+
+section .product-6 {
+    background-image: url(../imagens/product-2.jpg);
+    border-radius: 0 20px 0 20px;
+    
+}
+section .image-label {
+    height: 45px;
+    margin: 5px 0 0 240px;
+    position: absolute;
+}
+
+section .botao {
+    background-color: #ff4500;
+    color: white;
+    margin-left: 118px;
+    margin-top: 225px;
+    width: 80px;
+    height: 30px;
+}
+
+section .nome-produto {
+    color: white;
+    font-size: 23px;
+    background: #101010;
+    opacity: 0.5;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    padding-top: 11px;
+    margin-top: 131px;
+    position: absolute;
+
+}
+
+#rodape {
+    text-align: center;
+    background: #ffb90f;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+    width: 1349px;
+    border-radius: 20px 20px 0 0;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.input-form:focus {
+    border-color: green;
+}
+
+#menu ul li a:active{
+    color: black;
+}
